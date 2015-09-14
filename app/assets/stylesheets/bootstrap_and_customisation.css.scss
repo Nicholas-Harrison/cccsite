@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+$body-bg:					#fafbfc;
+$font-family-serif:				'Slabo 27px', serif;
+$navbar-height:				45px;
+$navbar-default-bg: 		#34495e;
+$navbar-default-link-color: #ecf0f1;
+$navbar-default-brand-color: #e67e22;
+
+
+
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.centered-navbar > img {
+	position:absolute;
+	text-align: center;
+	left:40%;
+	width:80%;
+	width: 200px;
+	height: 45px;
+	padding-top: 0px;
+}
+
+.nav bar-wrapper {
+  position: relative;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: −90px;
+}
+.carousel-inner {
+	max-width: 100%;
+	max-height: 620px;
+}
+
+.carousel-caption {
+	margin-bottom: 25px;
+}
+
+.first-slide {
+	width:100%;
+	height: 471px;
+}
+
+.second-slide {
+	width:100%;
+	height: 100%;
+}
+
+.third-slide {
+	width:100%;
+	height: 75%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 560px;
+}
+
+.media-object {
+	max-width:100%;
+	height: 200px;
+}
+
+body {padding-top: 70px; }
+
+.col-md-4 {
+	width: relative;
+	height: 500px;
+}
+
+.col-md-4 > .thumbnail > img {
+	width: relative;
+	height: 200px;
+}
+.panel {
+	padding-top: 20px;
+}
+
+.row {
+	padding-top: 10px;
+}
+

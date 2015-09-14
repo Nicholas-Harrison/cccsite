@@ -1,0 +1,51 @@
+<div class="nav bar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <ul class="nav navbar-nav navbar-left">
+                <li class="active"><%= link_to "Home", root_path %></li>
+              </ul>
+              <a class="centered-navbar" href="root_path">
+                <img  alt="Brand" src="http://i909.photobucket.com/albums/ac299/nick_harrison11/Corks%20Crew%20Cellars%20Logo_zpsdxseetcv.jpg" style="clip: rect(10px,180px,200px,40px)">
+              </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Meet The Crew!", about_path %></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><%= link_to "Blog", blog_path %></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Wines <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Red Wine</li>
+                    <li><a href="#">Light, Juicy Reds</a></li>
+                    <li><a href="#">Medium Structred Reds</a></li>
+                    <li><a href="#">Full, Ripe Reds</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">White Wine</li>
+                    <li><a href="#">Light, Crisp Whites</a></li>
+                    <li><a href="#">Fruity, Round Whites</a></li>
+                    <li><a href="#">Full, Opulent Whites</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Sparkling Wine</li>
+                    <li><a href="#">Australian</a></li>
+                    <li><a href="#">Champagne</a></li>
+                    <li><a href="#">Other</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+</div>
